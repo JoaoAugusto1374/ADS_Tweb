@@ -1,0 +1,486 @@
+/* Reset de estilos */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: black;
+}
+
+.logo {
+    width: 6rem;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero */
+.premium-offer {
+    background: linear-gradient(to bottom, #222, #000);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 10%;
+    font-family: Arial, sans-serif;
+}
+
+/* Conteúdo da oferta */
+.offer-content {
+    max-width: 500px;
+}
+
+.offer-content h2 {
+    font-size: 36px;
+    text-align: justify;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.offer-content p {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.offer-images img {
+    height: 20rem;
+}
+
+/* Botões */
+.offer-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-pink {
+    background-color: #ff7a9a;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Termos */
+.offer-terms {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.offer-terms a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Imagem das playlists */
+.offer-images img {
+    width: 400px;
+    max-width: 100%;
+    transform: rotate(-10deg);
+}
+
+
+/* Benefícios */
+.comparison {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header,
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #333;
+}
+
+.table-header {
+    font-weight: bold;
+    background-color: #1e1e1e;
+    border-bottom: 2px solid #333;
+}
+
+.table-row span {
+    flex: 1;
+    text-align: center;
+}
+
+.table-row span:first-child {
+    text-align: left;
+}
+
+.table-row span:nth-child(2) {
+    color: #aaa;
+}
+
+.table-row span:nth-child(3) {
+    color: #1DB954;
+    font-size: 18px;
+}
+
+/* Planos */
+.planos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.plano {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.plano-header {
+    background-color: #ff8aa6;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.plano-tipo {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.plano-titulo {
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+.plano-preco {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.plano-detalhe {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.plano-lista {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.plano-lista li {
+    margin-bottom: 5px;
+}
+
+.plano-botao {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.botao-rosa {
+    background-color: #ff8aa6;
+    color: black;
+}
+
+.botao-roxo {
+    background-color: #a970ff;
+    color: white;
+}
+
+.botao-amarelo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.botao-azul {
+    background-color: #75baff;
+    color: white;
+}
+
+.botao-secundario {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.plano-duo .plano-header,
+.plano-familia .plano-header {
+    display: none;
+}
+
+.premium-section {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Títulos */
+.premium-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.premium-subtitle {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* Texto descritivo */
+.premium-description {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 10px auto 20px;
+}
+
+/* Métodos de pagamento */
+.payment-methods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.payment-methods img {
+    width: 50px;
+    height: auto;
+}
+
+/* Lista de recursos */
+.premium-features {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.premium-features li {
+    text-align: left;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+
+
+/* Estilização do acordeão */
+.faq {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.faq h2 {
+    font-size: 24px;
+}
+
+.faq p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.faq-item {
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.faq-item input {
+    display: none;
+}
+
+.faq-question {
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-question::after {
+    content: "▼";
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+.faq-item input:checked + .faq-question + .faq-answer {
+    max-height: 150px;
+    padding: 15px;
+}
+
+.faq-item input:checked + .faq-question::after {
+    transform: rotate(180deg);
+}
+
+/* Rodapé */
+.spotify-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 10%;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-column h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #222;
+    padding: 10px;
+}
+
+
+.footer-bottom {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-legal a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.footer-legal a:hover {
+    color: #fff;
+}
+
+
+.footer-country {
+    text-align: right;
+}

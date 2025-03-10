@@ -1,0 +1,156 @@
+/* Configuração geral */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #222, #000);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* Caixa de login */
+.login-box {
+    background: #121212;
+    padding: 40px;
+    border-radius: 10px;
+    width: 360px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Logo */
+.logo {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Título */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Botões sociais */
+.social-button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-button img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+.google { border-color: #DB4437; }
+.facebook { border-color: #1877F2; }
+.apple { border-color: #ccc; }
+.phone { border-color: #555; }
+
+.social-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Linha divisória */
+hr {
+    margin: 20px 0;
+    border: 0.5px solid #333;
+}
+
+/* Formulário */
+form {
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #222;
+    color: #fff;
+}
+
+/* Campo de senha */
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Botão de login */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #1DB954;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: #1aa34a;
+}
+
+/* Links */
+.forgot-password, .signup-link {
+    display: block;
+    margin-top: 15px;
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.forgot-password:hover, .signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.footer a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

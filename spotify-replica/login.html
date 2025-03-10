@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Spotify</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-box">
+            <img src="assets/spotify-logo-white.svg" alt="Spotify" class="logo">
+            <h2>Entrar no Spotify</h2>
+
+            <!-- Botões de login -->
+            <button class="social-button google"><img src="google-icon.png" alt=""> Continuar com o Google</button>
+            <button class="social-button facebook"><img src="facebook-icon.png" alt=""> Continuar com o Facebook</button>
+            <button class="social-button apple"><img src="apple-icon.png" alt=""> Continuar com a Apple</button>
+            <button class="social-button phone">Continuar com um número de telefone</button>
+
+            <hr>
+
+            <!-- Formulário de login -->
+            <form>
+                <label for="email">E-mail ou nome de usuário</label>
+                <input type="text" id="email" placeholder="E-mail ou nome de usuário">
+
+                <label for="password">Senha</label>
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Senha">
+                    <span class="toggle-password">👁</span>
+                </div>
+
+                <button type="submit" class="login-button">Entrar</button>
+            </form>
+
+            <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+
+            <p>Não tem uma conta? <a href="#" class="signup-link">Inscrever-se no Spotify</a></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Este site é protegido pelo reCAPTCHA e está sujeito à <a href="#">Política de Privacidade</a> e aos <a href="#">Termos de Serviço</a> do Google.</p>
+    </footer>
+
+</body>
+</html>
