@@ -1,0 +1,195 @@
+:root{
+    --titulo: #000;
+    --cinza: #6B7280;
+    --verde: #22C55E;
+    --branco: #CCCCCC;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: var(--titulo);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.login {
+    background: none;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h1{
+    font-size: 3rem;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: var(--cinza);
+}
+
+small{
+    color: var(--cinza);
+}
+
+.email-box {
+    margin: 20px 0;
+}
+
+.email-box input {
+    padding: 10px;
+    width: 250px;
+}
+
+.email-box button {
+    padding: 10px;
+    background: var(--titulo);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.como-funciona {
+    background: white;
+    padding: 50px 20px;
+}
+
+.como-funciona h2{
+    font-size: 2.5rem;
+}
+
+.funciona-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.funciona-container ul li{
+    font-size: 1.8rem;
+    list-style: none;
+    line-height: 4rem;
+    color: var(--cinza);
+}
+
+#pe{
+    font-size: 2.5rem;
+}
+
+.preco p{
+    line-height: 2rem;
+    font-size: 1rem;
+    color: var(--cinza);
+}
+.preco p a{
+    color: inherit;
+}
+
+.planos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.plano {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+}
+
+.plano ul li{
+    list-style: none;
+    margin-left: -30px;
+    color: var(--cinza);
+}
+
+#comece{
+    background-color: white;
+    color: black;
+    border-radius: 2px solid;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 3.5rem;
+    margin-top: 2.5rem;
+}
+
+#assine{
+    background-color: black;
+    color: white;
+    border-radius: 2px solid;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 3.5rem;
+    margin-top: 1.2rem;
+}
+
+.cta {
+    background: white;
+    padding: 50px 20px;
+}
+
+.cta h2{
+    font-size: 2.5rem;
+    color: var(--titulo);
+}
+
+.cta p{
+    line-height: 1.8rem;
+    color: var(--cinza);
+}
+
+.cta button{
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    border-radius: 5px ;
+    
+    padding: 10px 100px ;
+}
+
+footer {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    color: var(--cinza);
+}

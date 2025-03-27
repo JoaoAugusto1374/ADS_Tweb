@@ -1,0 +1,94 @@
+@media (max-width: 1024px) {
+    .planos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .plano {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu a {
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+        display: block;
+    }
+
+    .hero {
+        padding: 30px 10px;
+    }
+
+    .email-box input {
+        width: 80%;
+    }
+
+    .funciona-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .planos {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 22px;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+
+    .email-box{
+        display: flex;
+    }
+    .email-box input {
+        width: 100%;
+    }
+
+    .email-box button {
+        width: 40%;
+    }
+
+
+    .funciona-container ul li{
+        font-size: large;
+    }
+
+    .plano {
+        width: 95%;
+    }
+
+    .cta {
+        padding: 30px 10px;
+    }
+}

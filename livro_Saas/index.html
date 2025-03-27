@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="assets/logo.svg" alt="logo da página">
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <nav class="menu">
+            <a href="#funcionamento">Funcionamento</a>
+            <a href="#preco">Preço</a>
+            <button class="login">Login</button>
+        </nav>
+    </header>
+    
+    
+    <section class="hero">
+        <h1>Simplifique Seus Estudos</h1>
+        <p>Deixe que nós fazemos a curadoria para você. Assine nossa plataforma e receba todos <br>os meses quatro ebooks novos de programação.</p>
+        <div class="email-box">
+            <input type="email" placeholder="Coloque seu email">
+            <button>Assine Agora</button>
+        </div>
+        <small>Comece sua assinatura agora mesmo. Cancele quando quiser.</small>
+    </section>
+    
+    <section class="como-funciona" id="funcionamento">
+        <h2>Como funciona?</h2>
+        <div class="funciona-container">
+            <img src="assets/woman.svg" alt="Ilustração">
+            <ul>
+                <li>Acesso a 4 ebooks por mês ✅</li>
+                <li>Curadoria especial ✅</li>
+                <li>Cancele quando quiser ✅</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="preco">
+        <h2 id="pe" >Preço Simples e Transparente</h2>
+        <p>Pra que inúmeros planos quando nós sabemos exatamente o que é melhor pra você?  <br>Assine o nosso plano mensal <a href="#">Pro Premium VIP</a> e garanta mensalmente quatro ebooks novos de programação.</p>
+        <div class="planos">
+            <div class="plano free">
+                <h3>Free</h3>
+                <p>O pontapé inicial para seus estudos</p>
+                <h4>R$0/mês</h4>
+                <ul>
+                    <li>✅ 1 ebook por mês</li>
+                    <li>❌ Curadoria especial</li>
+                    <li>❌ Acesso ilimitado</li>
+                </ul>
+                <button id="comece">Comece Agora</button>
+            </div>
+            <div class="plano premium">
+                <h3>Plano Pro Premium VIP</h3>
+                <p>Tudo que você precisa para seus estudos</p>
+                <h4>R$29/mês</h4>
+                <ul>
+                    <li>✅ 5 ebooks por mês</li>
+                    <li>✅ Curadoria especial</li>
+                    <li>✅ Acesso ilimitado</li>
+                    <li>✅ Cancele a qualquer momento</li>
+                </ul>
+                <button id="assine">Assine Agora</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <h2>Pronto Para Mudar Sua Vida?</h2>
+        <p>Faça como milhares de outras pessoas. Assine nosso produto <br>e tenha garantido seus estudos.</p>
+        <button>Assine Agora</button>
+    </section>
+    
+    <footer>
+        <img src="assets/logo.svg" alt="">
+        <p>&copy; 2024 LivroSaaS. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".menu").classList.toggle("active");
+        }
+    </script>
+        
+</body>
+</html>
